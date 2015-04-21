@@ -42,9 +42,10 @@ libraryDependencies ++= Seq(
     "org.scalatest" %% "scalatest" % "1.9.1" % "test",
     "org.apache.spark" %% "spark-core" % "1.3.0",
     "org.apache.spark" %% "spark-streaming" % "1.3.0",
-	"org.apache.spark" %% "spark-mllib" % "1.3.0",
-	"org.apache.spark" %% "spark-sql" % "1.3.0",
-	"org.apache.spark" %% "spark-graphx" % "1.3.0",
+	  "org.apache.spark" %% "spark-mllib" % "1.3.0",
+	  "org.apache.spark" %% "spark-sql" % "1.3.0",
+    "org.apache.spark" %% "spark-hive" % "1.3.0",
+	  "org.apache.spark" %% "spark-graphx" % "1.3.0",
     "org.apache.spark" %% "spark-streaming-kafka" % "1.3.0",
     "org.apache.kafka" %% "kafka" % "0.8.1.1")
 

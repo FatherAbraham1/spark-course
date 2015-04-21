@@ -14,7 +14,7 @@ import org.apache.spark.mllib.regression.LabeledPoint
 object LR_classify {
 
   def main(args: Array[String]) {
-    val conf = new SparkConf().setAppName(s"Book example: Scala")
+    val conf = new SparkConf().setAppName(s"Book example: Scala").setMaster("local").setAppName("classify")
     val sc = new SparkContext(conf)
 
     // Load 2 types of emails from text files: spam and ham (non-spam).
