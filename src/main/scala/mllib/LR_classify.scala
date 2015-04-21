@@ -3,7 +3,7 @@ package mllib
 /**
  * Created by gaoyanjie on 2015/4/21.
  *
- *
+ * LR
  * */
 
 import org.apache.spark.{SparkConf, SparkContext}
