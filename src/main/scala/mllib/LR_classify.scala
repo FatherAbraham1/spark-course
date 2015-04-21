@@ -2,10 +2,8 @@ package mllib
 
 /**
  * Created by gaoyanjie on 2015/4/21.
- */
-class LR_classify {
-
-}
+ *
+ * */
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.classification.LogisticRegressionWithSGD
