@@ -24,3 +24,10 @@
 
 # 9 运行示例
 # ./run-example org.apache.spark.examples.SparkPi spark://masterIP:7077
+./bin/spark-submit \
+  --class org.apache.spark.examples.SparkPi \
+  --master spark://masterIP:7077 \
+  --executor-memory 20G \
+  --total-executor-cores 100 \
+  /mnt/diskd/yanjie/spark-1.2.1-bin-hadoop2.4/lib/spark-examples-1.2.1-hadoop2.4.0.jar \
+  1000
