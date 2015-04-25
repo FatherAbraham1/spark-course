@@ -1,5 +1,9 @@
 # 1 安装jdk
 # http://www.oracle.com/technetwork/java/javase/downloads/index.html
+# /etc/profile
+#export JAVA_HOME=/usr/share/jdk1.6.0_14 
+#export PATH=$JAVA_HOME/bin:$PATH 
+#export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 # 2 下载Spark bin
 # http://spark.apache.org/downloads.html
