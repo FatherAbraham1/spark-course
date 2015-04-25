@@ -7,6 +7,7 @@
 # 3 tar -xzvf
 
 # 4 配置conf/spark-env.sh
+# export SPARK_MASTER_IP=
 
 # 5 配置conf/slaves
 
