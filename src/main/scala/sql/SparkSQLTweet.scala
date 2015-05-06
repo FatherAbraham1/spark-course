@@ -37,7 +37,7 @@ object Analyze {
 //    }
 
     val Array(tweetInput) = Array("files/sql/sampletweets2015.dat")
-      //args
+     ////args
 
     println("Initializing Spark Context...")
     val conf = new SparkConf().setAppName(this.getClass.getSimpleName).setMaster("local")
