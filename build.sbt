@@ -59,7 +59,7 @@ resolvers ++= Seq(
  // "Twitter Maven Repo" at "http://maven.twttr.com/",
  // "scala-tools" at "https://oss.sonatype.org/content/groups/scala-tools",
   "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/",
-  "Second Typesafe repo" at "http://repo.typesafe.com/typesafe/maven-releases/",
+  "Second Typesafe repo" at "http://repo.typesafe.com/typesafe/maven-releases/"//,
   //"Mesosphere Public Repository" at "http://downloads.mesosphere.io/maven"
 )
 
